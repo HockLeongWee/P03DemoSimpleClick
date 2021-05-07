@@ -33,5 +33,14 @@
         android:layout_height="wrap_content"
         android:text="@string/show" />
 
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="ToggleButton"
+        android:textOff="Disabled"
+        android:textOn="Enabled" />
+
 
 </LinearLayout>
