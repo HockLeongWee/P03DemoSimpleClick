@@ -28,9 +28,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Code for the action
-                etInput.getText().toString();
-                String stringResponse = etInput.getText().toString();
-                tvDisplay.setText(stringResponse);
+//                etInput.getText().toString();
+//                String stringResponse = etInput.getText().toString();
+//                tvDisplay.setText(stringResponse);
+                 String strResponse = etInput.getText().toString();
+
+                 tvDisplay.setText(strResponse);
             }
         });
 
